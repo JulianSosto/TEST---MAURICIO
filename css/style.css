@@ -1,0 +1,86 @@
+/* Font */
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Table */
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td,
+th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+/* Image profile */
+
+.image-profile {
+	width: 200px;
+	margin: 2%;
+}
+
+.image-status {
+	width: 100px;
+	margin: 2%;
+}
+
+/* Description profile */
+
+#description {
+	margin-bottom: 2%;
+}
+
+/* send-message */
+
+#send-message {
+	margin-bottom: 2%;
+}
+
+/* Clasificacion */
+
+#form {
+	width: 250px;
+	margin: 0 auto;
+	height: 50px;
+}
+
+#form p {
+	text-align: center;
+}
+
+#form label {
+	font-size: 20px;
+}
+
+input[type="radio"] {
+	display: none;
+}
+
+label {
+	color: grey;
+	margin-right: 10px;
+	font-size: xx-large;
+}
+
+.clasificacion {
+	direction: rtl;
+	unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover~label {
+	color: orange;
+}
+
+input[type="radio"]:checked~label {
+	color: orange;
+}
