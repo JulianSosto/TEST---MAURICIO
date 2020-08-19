@@ -26,12 +26,13 @@ tr:nth-child(even) {
 .image-profile {
 	width: 200px;
 	margin: 2%;
+	margin-left:0;
 }
 
 .image-status {
 	width: 100px;
 	margin: 2%;
-}
+	}
 
 /* Description profile */
 
