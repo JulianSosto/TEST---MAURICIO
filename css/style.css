@@ -37,13 +37,13 @@ tr:nth-child(even) {
 /* Description profile */
 
 #description {
-	margin-bottom: 2%;
+	margin-bottom: 0;
 }
 
 /* send-message */
 
 #send-message {
-	margin-bottom: 2%;
+	margin-bottom: 1%;
 }
 
 /*Search*/
@@ -75,7 +75,9 @@ input[type="radio"] {
 label {
 	color: grey;
 	margin-right: 10px;
+	margin-top: -0.5%;
 	font-size: xx-large;
+
 }
 
 .clasificacion {
