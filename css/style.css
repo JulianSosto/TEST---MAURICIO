@@ -46,6 +46,12 @@ tr:nth-child(even) {
 	margin-bottom: 2%;
 }
 
+/*Search*/
+.form-control-search {
+	width: 25%;
+	margin-left: 0.7%;
+}
+
 /* Clasificacion */
 
 #form {
